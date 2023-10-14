@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section class="container"></section>
+    <section class="container">
+        <div class="heading">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/laptop.svg" class="heading__img">
+            <h1 class="heading__title">To-Do List</h1>
+        </div>
+        <form class="form">
+            <div>
+                <label for="todo" class="form__label">~ Today I need to</label>
+                <input type="text" class="form__input" id="todo" name="to-do" size="30" required>
+                <button class="button"><span>Submit</span></button>
+            </div>
+        </form>
+        <div>
+            <ul class="toDoList"></ul>
+        </div>
+    </section>
 
 </body>
 <script src="./script.js"></script>
